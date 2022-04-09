@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Andrew Broll </title>
+    </head>
+    <body>
+        <h1> Andrew Broll - Programmer</h1>
+
+        
+        <img src="C:\Users\Andre\OneDrive\Pictures/Andrew_Personal_Pics/Andrew_Broll_Picture.jpg" alt="Andrew Photo" style="width:128px;height:128px;">
+        
+        
+        <table> 
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Broll</td>
+                    <td>andr3wbroll@gmail.com</td>
+                    <td> 3205837266  </td>
+                </tr>
+            </tbody>
+    </table>
+    <h3>Technologies:</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Python</li>
+    </ul>
+    <h3>Social Media</h3>
+    <ul>
+        <a 
+        href= "https://www.linkedin.com/in/andrew-broll-42a81b78/" >LinkedIn Profile</a>
+
+
+        <div>
+        <a 
+        href= "https://www.facebook.com/andrew.broll" >Facebook Profile</a>
+        </div>
+    </ul>
+
+    <h3> Contact Me</h3>
+    <p> Please use the form below to enter why you are contacting me and what I can do to help.</p>
+    <form action = "/process" method = "post">
+        <div>
+            <label>Name: </label>
+            <input type = "text" name="name"
+            placeholder="Your name...">
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="'text" name="email"
+            placeholder="Your email...">
+        </div>
+        <div> 
+            <textarea name="comment" cols="20" rows="3"></textarea>
+        </div>
+
+    </form>
+    </body>
+</html>
